@@ -45,3 +45,9 @@ p {
     line-height: 28px;
 }
 
+/* section__two */
+.section__two {
+    margin-top: 50px;
+    padding: 0;
+}
+
