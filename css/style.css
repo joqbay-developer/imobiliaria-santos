@@ -46,11 +46,6 @@ p {
     line-height: 28px;
 }
 
-.subtitle {
-    color: #1c81c0;
-    margin-top: 0;
-    font-weight: normal;  
-}
 
 .strong-blue {
     color: #1d80c1;
@@ -62,12 +57,31 @@ p {
     padding: 0;
 }
 
+.section__two img {
+    box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.3);
+}
+
 .section__three h1 {
+    font-size: 30px;
     color: #1d1d1d;
     margin-bottom: 5px;
 }
+
+.section__three h2 {
+    font-size: 26;
+    color: #1d80c1;
+    line-height: 42px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
 .section__three img {
    width: 450px;
+   box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.3);
+}
+
+.section__three p {
+    margin-top: 20px;
 }
 
 .section__four {
@@ -106,10 +120,16 @@ p {
     font-size: 28px;
     line-height: 42px;
     color: #1d80c1;
+    margin-bottom: 20px;
 }
 
 .section__five img {
     width: 450px;
+    box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.3);
+}
+
+.section__five p {
+    margin-top: 20px;
 }
 
 .section__six {
@@ -120,6 +140,7 @@ p {
     font-size: 28px;
     color: #ffffff;
     line-height: 42px;
+    margin-bottom: 20px;
 }
 
 .section__six iframe {
@@ -148,9 +169,15 @@ p {
     font-size: 18px;
 }
 .section__six ul li a {
+    color: #ffffff;
+    transition: .3s ease-in-out;
+}
+
+.section__six ul li a:hover {
     background-color: #ffffff;
     color: #1d80c1;
     padding: 2px 5px;
     border-radius: 5px;
+    text-decoration: none;
 }
 
