@@ -51,7 +51,7 @@ p {
     font-weight: normal;  
 }
 
-strong {
+.strong-blue {
     color: #1d80c1;
 }
 
@@ -67,5 +67,37 @@ strong {
 }
 .section__three img {
    width: 450px;
+}
+
+.section__four {
+    background-color: #1d80c1;
+}
+
+.section__four h3 {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.section__four p {
+    color: #ffffff;
+    line-height: 42px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.strong-four {
+    color: #fff81b;
+}
+
+.section__four ul {
+    margin: 40px auto;
+    width: 135px;
+}
+.section__four ul li{
+    color: #ffffff;
+    line-height: 42px;
+    text-align: left;
+    font-size: 22px;
 }
 
