@@ -13,11 +13,14 @@ img {
     border-radius: 5px;
 }
 
+/* global sections */
 .section__two, .section__three, .section__four, .section__five, .section__six {
     padding: 30px 0;
     text-align: center;
 }
+/* global sections */
 
+/* header */
 header {
     background-color: #afddfb;
     display: flex;
@@ -49,7 +52,9 @@ header nav a:hover {
 header .logo {
     width: 80px;
 }
+/* header */
 
+/* glopal paragraph */
 p {
     width: 980px;
     margin: 10px auto;
@@ -57,7 +62,7 @@ p {
     font-size: 18px;
     line-height: 28px;
 }
-
+/* glopal paragraph */
 
 .strong-blue {
     color: #1d80c1;
@@ -87,9 +92,9 @@ p {
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
     border-radius: 5px;
 }
+/* section__two */
 
-
-
+/* section__three */
 .section__three h2 {
     font-size: 26;
     color: #1d80c1;
@@ -106,7 +111,9 @@ p {
 .section__three p {
     margin-top: 20px;
 }
+/* section__three */
 
+/* section__four */
 .section__four {
     background-color: #1d80c1;
 }
@@ -139,6 +146,10 @@ p {
     font-size: 22px;
 }
 
+/* section__four */
+
+
+/* section__five */
 .section__five h3 {
     font-size: 28px;
     line-height: 42px;
@@ -154,7 +165,9 @@ p {
 .section__five p {
     margin-top: 20px;
 }
+/* section__five */
 
+/* section__six */
 .section__six {
     background-color: #1d80c1
 }
@@ -203,4 +216,4 @@ p {
     border-radius: 5px;
     text-decoration: none;
 }
-
+/* section__six */
