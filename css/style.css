@@ -65,19 +65,30 @@ p {
 
 /* section__two */
 .section__two {
-    margin-top: 50px;
     padding: 0;
+    min-height: calc(100vh - 80px);
+    background-image: url(/images/banner-2.png);
+    background-repeat: none;
+    background-size: cover;
 }
 
-.section__two img {
-    box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.3);
+.section__two  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.section__three h1 {
-    font-size: 30px;
-    color: #1d1d1d;
-    margin-bottom: 5px;
+.section__two h1 {
+    font-size: 52px;
+    background-color: rgba(177, 222, 251, 0.6);
+    color: #ffffff;
+    padding: 20px;
+    font-style: italic;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
 }
+
+
 
 .section__three h2 {
     font-size: 26;
