@@ -101,3 +101,13 @@ p {
     font-size: 22px;
 }
 
+.section__five h3 {
+    font-size: 28px;
+    line-height: 42px;
+    color: #1d80c1;
+}
+
+.section__five img {
+    width: 450px;
+}
+
