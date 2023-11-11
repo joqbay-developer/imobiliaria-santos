@@ -45,9 +45,27 @@ p {
     line-height: 28px;
 }
 
+.subtitle {
+    color: #1c81c0;
+    margin-top: 0;
+    font-weight: normal;  
+}
+
+strong {
+    color: #1d80c1;
+}
+
 /* section__two */
 .section__two {
     margin-top: 50px;
     padding: 0;
+}
+
+.section__three h1 {
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+.section__three img {
+   width: 450px;
 }
 
