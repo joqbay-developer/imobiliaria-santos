@@ -17,11 +17,23 @@ header, .section__two, .section__three, .section__four, .section__five, .section
     text-align: center;
 }
 
-header nav a {
-    margin: 10px auto;
+header {
+    background-color: #afddfb;
 }
 
-header img {
+header nav {
+    margin: 25px auto;
+}
+
+header nav a {
+    font-size: 18px;
+    color: #1d1d1d;
+    border-bottom: 2px solid #1d1d1d;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header .logo {
     width: 150px;
 }
 
